@@ -13,8 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+<<<<<<< HEAD
 title: Security blog & Personal website
 email: fahimipour.avesta@gmail.com
+=======
+title: My 
+email:
+>>>>>>> 9c14109063cb605ad0a4fb62bdf0ad40c2332e48
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
