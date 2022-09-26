@@ -61,20 +61,18 @@ plugins:
 author:
   name   : "Avesta Fahimipour"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "."
+  bio    : "Cyber security enthusiast"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/avesta-fahimipour/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/Avesta_FA"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Avesta-FA"
+
 
 footer:
   links:
