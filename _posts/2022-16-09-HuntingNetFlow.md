@@ -40,7 +40,7 @@ Normal DNS.
 UDP port 53, large/medium download, large/medium upload, long duration.
 DNS tunnel, DNS C2.
 #### cat conn.log | zeek-cut  duration id.orig_h id.resp_h proto service orig_bytes resp_bytes | sort -u | sort -n
-*   Insert pic2
+![](/assets/images/pic2.jpg)
 
 TCP port 80/443, medium download, small upload, short duration.
 Normal HTTP download.
@@ -51,7 +51,7 @@ Normal ICMP.
 ICMP, large download, large upload, long duration.
 ICMP Tunnel.
 #### cat conn.log | zeek-cut duration id.orig_h id.resp_h proto orig_bytes resp_bytes
-*   Insert pic3
+![](/assets/images/pic3.jpg)
 
 The benefit of IDSs like Suricata and Zeek is that they give us a simple log file with NetFlow information that we can parse on the command line and hunt for anomalies.
 In an enterprise, this is not feasible. You need to gather all the information in a central location for faster and easier processing.
@@ -63,31 +63,32 @@ Outbound analysis is a great way to detect C2 channels and policy violations.
 When looking at outbound traffic volume can easily indicate exfiltration. 
 Another interesting detection is upload to download ratio, users normally download more than they upload, and even with small volumes seeing 10MB of upload and 1MB download should be investigated.
 You can visualize most downloaded and uploaded bytes based on IP using the vertical bar with the configuration below:
-*   Insert pic4
+![](/assets/images/pic4.jpg)
 
 
 You can also create one for upload and another for download.
 Volume can also be visualized based on ports using the pie chart with the configuration below:
-*   Insert pic5
+![](/assets/images/pic5.jpg)
+
 
 
 
 Adversaries will use C2 channels to control the systems they have compromised, this may result in connections with long durations.
 You can visualize this with the line chart and configuration below:
-*   Insert pic6
+![](/assets/images/pic6.jpg)
 
 
 
 The number of connections is another indicator, you can either look at the extremes or do comparative analysis.
-*   Insert pic7
+![](/assets/images/pic7.jpg)
 
 
 
 
 To complete your dashboard you can add several data tables to easily correlate data.
-*   Insert pic8
+![](/assets/images/pic8.jpg)
 
-*   Insert pic9
+![](/assets/images/pic9.jpg)
 
 
  
