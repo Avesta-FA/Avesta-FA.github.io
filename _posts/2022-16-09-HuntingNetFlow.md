@@ -35,7 +35,7 @@ UDP port 53, small download, small upload, short duration.
 Normal DNS.
 #### cat conn.log | zeek-cut  duration id.orig_h id.resp_h proto service orig_bytes resp_bytes | sort -u | sort -n 
 
-![](/)
+![](/assets/images/pic1.jpg)
 
 UDP port 53, large/medium download, large/medium upload, long duration.
 DNS tunnel, DNS C2.
