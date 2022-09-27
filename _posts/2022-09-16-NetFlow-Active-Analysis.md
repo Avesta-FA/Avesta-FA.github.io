@@ -31,14 +31,15 @@ Because of the heavy usage of NetFlow, we will call flow data NetFlow for the sa
 
 ### NetFlow Structure
 Each flow will have various fields, examples include:
-•	Timestamp
-•	Source & Destination IP
-•	Source & Destination Port
-•	ICMP Type Code
-•	TCP Flags
-•	Bytes Sent & Received
-•	Input Interface
-•	…
+*	Timestamp
+*	Source & Destination IP
+*	Source & Destination Port
+*	ICMP Type Code
+*	TCP Flags
+*	Bytes Sent & Received
+*	Input Interface
+*	…
+
 NetFlow is network traffic metadata; because of that, it is very fast and doesn’t take up any space.  
 Flows are commonly unidirectional but they can also be bidirectional. Every two unidirectional flows will show the complete picture.  
 
