@@ -10,7 +10,7 @@ tags:
 
 
 # NetFlow Active Analysis
-Time has not been kind to network security monitoring (NSM) or to people that conduct network analysis. 
+Time has not been kind to network security monitoring (NSM) or to people that conduct network analysis.  
 Encryption has become the biggest problem when considering network analysis. You will either have no data to analyze or you need to spend resources on products that decrypt data like SSL inspection.  
 Other challenges include NAT, tunnels, VPN, cloud, volume, and legal.  
 While correct placement can fix some of these problems, in the end, legally you may not be able to capture network traffic, but all hope is not lost, I present NetFlow.  
