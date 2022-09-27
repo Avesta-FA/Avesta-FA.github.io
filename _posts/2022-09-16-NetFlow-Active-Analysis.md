@@ -1,20 +1,12 @@
-
 ---
-
 title: "NetFlow Active Analysis"
-
 date: 2022-09-16
-
 author: Avesta Fahimipour
-
 categories:
   - Blog
 tags:
   - Article
-
-
 ---
-
 
 
 # NetFlow Active Analysis
