@@ -74,12 +74,12 @@ Here I will show you ELK bucket configurations so you could be able to centraliz
 Outbound analysis is a great way to detect C2 channels and policy violations.  
 When looking at outbound traffic volume can easily indicate exfiltration.  
 Another interesting detection is upload to download ratio, users normally download more than they upload, and even with small volumes seeing 10MB of upload and 1MB download should be investigated.  
-You can visualize most downloaded and uploaded bytes based on IP using the vertical bar with the configuration below:
+You can visualize most downloaded and uploaded bytes based on IP using the vertical bar with the configuration below:  
 ![](/assets/images/pic4.jpg)
 
 
 You can also create one for upload and another for download.  
-Volume can also be visualized based on ports using the pie chart with the configuration below:  
+Volume can also be visualized based on ports using the pie chart with the configuration below:   
 ![](/assets/images/pic5.jpg)
 
 
