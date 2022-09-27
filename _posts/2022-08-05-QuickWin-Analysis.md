@@ -24,9 +24,8 @@ https://www.youtube.com/watch?v=KgVmNicfHxo
 
 #### How To  
 
-`Data | Group-Object id -NoElement | sort count`
-
-`Data | sort | uniq -c | sort -n`
+Data | Group-Object id -NoElement | sort count
+Data | sort | uniq -c | sort -n
 
 ### Stacking
 Generally, endpoints tend to be very similar especially if you have a baseline configuration.  
