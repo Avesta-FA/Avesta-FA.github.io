@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Avesta Fahimipour"
   avatar : "/assets/images/avesta.jpg"
-  bio    : "Cyber security enthusiast"
+  bio    : "Too much cyber security has brought me here."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
