@@ -23,9 +23,12 @@ This technique was originally founded by Eric Conrad, SANS Instructor.
 https://www.youtube.com/watch?v=KgVmNicfHxo
 
 #### How To  
-
+```powershell
 "Data | Group-Object id -NoElement | sort count"
-"Data | sort | uniq -c | sort -n"
+```
+```console
+Data | sort | uniq -c | sort -n
+```
 
 ### Stacking
 Generally, endpoints tend to be very similar especially if you have a baseline configuration.  
