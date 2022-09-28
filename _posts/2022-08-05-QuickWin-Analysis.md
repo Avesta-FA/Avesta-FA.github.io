@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=KgVmNicfHxo
 
 #### How To  
 ```powershell
-"Data | Group-Object id -NoElement | sort count"
+Data | Group-Object id -NoElement | sort count
 ```
 ```console
 Data | sort | uniq -c | sort -n
