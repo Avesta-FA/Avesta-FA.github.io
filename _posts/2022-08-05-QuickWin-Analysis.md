@@ -11,7 +11,6 @@ categories:
 The purpose of this blog is to be a cheat sheet for the security community to find and detect adversaries.  
 While there will be a lot of quick wins I will also add detection techniques that require more analysis.  
 
-## High Level
 
 ### Long Tail Analysis
 Long tail analysis is a multi purpose detection technique that works on historical data. The output contains two important sections:  
